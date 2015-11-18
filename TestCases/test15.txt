@@ -1,0 +1,88 @@
+0:iconst_1
+1:istore_1
+2:bipush 6
+4:istore_2
+5:sipush 132
+8:istore_3
+9:iconst_1
+10:istore 4
+12:iconst_0
+13:istore 5
+15:iconst_1
+16:istore 6
+18:iload_1
+19:iload_2
+20:if_icmpge 32
+23:iload 4
+25:if_eq 32
+28:iconst_1
+29:goto 33
+32:iconst_0
+33:istore 4
+35:iload_3
+36:iload_2
+37:if_icmpgt 49
+40:iload 5
+42:if_eq 49
+45:iconst_1
+46:goto 50
+49:iconst_0
+50:istore 5
+52:iload_1
+53:iload_3
+54:if_icmpeq 66
+57:iload 6
+59:if_eq 66
+62:iconst_1
+63:goto 67
+66:iconst_0
+67:istore 6
+69:iload 4
+71:if_eq 
+74:iload_3
+75:iload_2
+76:if_icmple 
+79:iload 5
+81:if_eq 
+84:iload_1
+85:iload_2
+86:if_icmpge 
+89:iload 6
+91:if_eq 
+94:iload_1104
+95:iload_2
+96:if_icmpne 104
+99:iload_3
+100:iload_2
+101:if_icmple 
+104:iload 4
+106:if_eq 
+109:iload 5
+111:if_eq 
+114:iload_1
+115:iload_2
+116:if_icmpge 123
+119:iconst_1
+120:goto 124
+123:iconst_0
+124:istore 6
+126:iload 4
+128:if_eq 
+131:iload 5
+133:
+134:iload 6
+136:if_eq 
+139:iload_1
+140:iload_2
+141:if_icmple 
+144:iload_3
+145:iload_2
+146:if_icmpne 
+149:iload_1
+150:iload_2
+151:if_icmpeq 158
+154:iconst_1
+155:goto 159
+158:iconst_0
+159:istore 7
+161:return

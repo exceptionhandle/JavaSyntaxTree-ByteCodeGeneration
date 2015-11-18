@@ -1,0 +1,60 @@
+0:iconst_196
+1:istore_1
+2:bipush 6
+4:istore_2
+5:sipush 132
+8:istore_3
+9:iconst_1
+10:istore 4
+12:iconst_1
+13:istore 5
+15:iconst_1
+16:istore 6
+18:iload 4
+20:if_eq 
+23:iload 5
+25:if_eq 
+28:iload 640
+30:iload_1
+31:iconst_1
+32:iadd
+33:if_eq 40
+36:iconst_1
+37:goto 41
+40:iconst_0
+41:istore_1
+42:iload_2
+43:bipush 6
+45:imul
+46:istore_2
+47:iload_3
+48:bipush 11
+50:idiv
+51:istore_3
+52:iload_1
+53:iload_2
+54:if_icmpge 61
+57:iconst_1
+58:goto 62
+61:iconst_0
+62:istore 4
+64:iload_3
+65:iload_2
+66:if_icmpgt 73
+69:iconst_1
+70:goto 74
+73:iconst_0
+74:istore 5
+76:iload_1
+77:iload_2
+78:iadd
+79:iload_3
+80:bipush 22
+82:idiv
+83:if_icmpeq 90
+86:iconst_1
+87:goto 91
+90:iconst_0
+91:istore 6
+93:goto 18
+96:return

@@ -1,0 +1,30 @@
+0:iconst_1
+1:istore_1
+2:bipush 6
+4:istore_2
+5:sipush 132
+8:istore_3
+9:iload_1
+10:iload_2
+11:if_icmpge 18
+14:iconst_1
+15:goto 19
+18:iconst_0
+19:istore 4
+21:iload_3
+22:iload_2
+23:if_icmpgt 30
+26:iconst_1
+27:goto 31
+30:iconst_0
+31:istore 5
+33:iload_1
+34:iload_2
+35:iadd
+36:iload_3
+37:if_icmpeq 44
+40:iconst_1
+41:goto 45
+44:iconst_0
+45:istore 6
+47:return
