@@ -12,7 +12,10 @@ OUTPUT Bytecode Structure:
  For short integers greater than 127, the generated opcode is sipush. Now we need two bytes to encode the value and hence Java leaves two bytes after the instruction for sipush.
 2. The initialization, test, and increment components of a for-loop are all optional, and the simplest loop is of the form for ( ; ; )
 
-The Grammer used for the java implementation in format of the programming language TinyPL:
+Syntax Grammer used for the java implementation 
+===============================================
+given as follows is in the programming language TinyPL:
+
 program -> decls stmts end
 
 decls -> int idlist ';'
